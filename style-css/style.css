@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #b91547;
+    font-size: 25px;
+}
+
+main {
+
+    height: 100vh;
+    background-color: rgb(143, 43, 43);
+    text-align: center;
+    padding-top: 3.125rem;
+
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 2.5rem;
+}
+.container {
+
+    display: flex;
+    justify-content: center;
+}
+
+
+#nomeCognome {
+
+    display: block;
+}
+
+#distanza {
+
+    display: block;
+}
+
+#fasciaEta {
+
+    display: block;
+}
+
+.containerFormItems {
+    margin-right: 3.750rem;
+    display: inline-block;
+}
+
+.containerForm {
+    margin: 1.875rem 8.125rem;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.containerInput{
+    
+   border-radius: .3125rem;
+    background-color: white;
+}
+
+.containerBottoni{
+    
+    margin-top: 1.875rem;
+    margin-bottom: 1.25rem;
+}
+/* .formStyle{
+    
+} */
+
+.inputStyle{
+    border-radius: 5px;
+    border-color: #b91547;
+    border-width: 2px;
+    color: black;
+}
+
+.inputStyle.btnStyle{
+    padding: 8px;
+    background-color: #c5c5c5;
+    color: #b91547;
+    margin-top: 3.125rem;
+    margin-left: 20px;
+    border-color: #878787;
+}
+
+.inputStyle.btnStyle:hover{
+    
+    border-color: #e38446;
+    
+}
+.labelStyle{
+    display: block;
+    margin-bottom: 30px;
+}

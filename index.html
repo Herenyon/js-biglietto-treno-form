@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- style-css  -->
+    <link rel="stylesheet" href="style-css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+        <div class="container">
+            <div class="containerInput">
+                <div class="containerForm">
+                    <form class="formStyle" method="get">
+
+                        <div class="containerFormItems">
+                            <label for="nomeCognome" class="labelStyle">Nome Cognome</label>
+                            <input type="text" name="nomeCognome" id="nomeCognome" class="inputStyle">
+                        </div>
+                        <div class="containerFormItems">
+                            <label for="distanza" class="labelStyle">Km da percorrere</label>
+                            <input type="number" name="chilometri" id="distanza" class="inputStyle">
+                        </div>
+                        <div class="containerFormItems">
+                            <label for="fasciaEta" class="labelStyle">Fascia d'età</label>
+
+                            <select type="eta" name="fasciaEta" id="fasciaEta" class="inputStyle">
+                                <option value="">-</option>
+                                <option value="minorenne">Minorenne</option>
+                                <option value="maggiorenne">Maggiorenne</option>
+                                <option value="over">Over 65</option>
+                            </select>
+                        </div>
+                        <div class="containerBottoni">
+                            <input type="submit" name="genera" value="Genera" id="genera" class="inputStyle btnStyle">
+
+                            <input type="reset" name="reset" value="Annulla" class="inputStyle btnStyle">
+                        </div>
+                    </form>
+                
+                </div>
+
+                <div>
+
+
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
