@@ -2,10 +2,10 @@
 
 
 
-
+const mostraBiglietto = document.querySelector('.containerBiglietto');
 
 const buttonGenerate = document.getElementById('genera');
-
+const bottoneAnnulla = document.getElementById('reset')
 buttonGenerate.addEventListener('click',
     function () {
         // const input del form
@@ -20,6 +20,8 @@ buttonGenerate.addEventListener('click',
         // const numeri random 
         const numeroRandomCarrozza = Math.floor(Math.random() * 10 + 1);
         const numeroRandomCP = Math.floor(Math.random() * 99999 + 1);
+
+        
         // let per il biglietto ridotto 
         let prezzoBigliettoRidotto;
         // calcolo per il prezzo base del biglietto 
@@ -66,11 +68,20 @@ buttonGenerate.addEventListener('click',
             document.getElementById("segnaCosto").innerHTML = prezzoBiglietto;
         }
 
+        mostraBiglietto.classList.add('vediBiglietto');
+        
     }
 
 
 )
 
+bottoneAnnulla.addEventListener('click',
+    function(){
+
+        mostraBiglietto.classList.remove('vediBiglietto')
+    }
+    
+    )
 
 
 

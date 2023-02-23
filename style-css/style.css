@@ -103,7 +103,7 @@ h1 {
     margin-bottom: 30px;
 }
 .containerBiglietto{
-
+    display: none;
     background-color: white;
     
 }
@@ -118,15 +118,20 @@ h1 {
 table{
     border-top: 1px solid #878787;
     border-bottom: 1px solid #878787;
-    padding: 30px;
+    padding: 10px;
 }
 
 .cellStyle{
     color: #000000;
-    padding: 10px;
+    padding: 10px 20px;
 }
 
 .cellColumn{
 
     background-color: #878787;
+}
+
+.vediBiglietto{
+
+    display: block;
 }
