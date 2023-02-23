@@ -15,15 +15,18 @@ main {
 
 }
 
-h1{
+h1 {
     color: white;
     font-size: 40px;
     margin-bottom: 2.5rem;
 }
+
 .container {
 
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -51,32 +54,36 @@ h1{
     margin: 1.875rem 8.125rem;
     display: flex;
     justify-content: center;
-   
+
 }
 
-.containerInput{
-    
-   border-radius: .3125rem;
+.containerInput {
+    box-shadow: 0px 0px 15px -1px #000000;
+    border-radius: .3125rem;
     background-color: white;
+    margin-bottom: 1.5625rem;
+    width: fit-content;
+
 }
 
-.containerBottoni{
-    
+.containerBottoni {
+
     margin-top: 1.875rem;
-    margin-bottom: 1.25rem;
+
 }
+
 /* .formStyle{
     
 } */
 
-.inputStyle{
+.inputStyle {
     border-radius: 5px;
     border-color: #b91547;
     border-width: 2px;
     color: black;
 }
 
-.inputStyle.btnStyle{
+.inputStyle.btnStyle {
     padding: 8px;
     background-color: #c5c5c5;
     color: #b91547;
@@ -85,12 +92,41 @@ h1{
     border-color: #878787;
 }
 
-.inputStyle.btnStyle:hover{
-    
+.inputStyle.btnStyle:hover {
+
     border-color: #e38446;
-    
+
 }
-.labelStyle{
+
+.labelStyle {
     display: block;
     margin-bottom: 30px;
+}
+.containerBiglietto{
+
+    background-color: white;
+    
+}
+.containerDati{
+
+    margin: 1.875rem 8.125rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+table{
+    border-top: 1px solid #878787;
+    border-bottom: 1px solid #878787;
+    padding: 30px;
+}
+
+.cellStyle{
+    color: #000000;
+    padding: 10px;
+}
+
+.cellColumn{
+
+    background-color: #878787;
 }
